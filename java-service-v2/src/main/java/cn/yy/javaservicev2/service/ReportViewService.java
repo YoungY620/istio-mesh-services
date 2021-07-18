@@ -1,6 +1,6 @@
-package cn.yy.javaservice.service;
+package cn.yy.javaservicev2.service;
 
-import cn.yy.javaservice.dto.common.ResponseBean;
+import cn.yy.javaservicev2.dto.common.ResponseBean;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

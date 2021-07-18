@@ -1,9 +1,8 @@
-package cn.yy.javaservice.controller;
+package cn.yy.javaservicev2.controller;
 
-
-import cn.yy.javaservice.dto.common.ResponseBean;
-import cn.yy.javaservice.dto.relation.Worklog;
-import cn.yy.javaservice.service.ReportEditService;
+import cn.yy.javaservicev2.dto.common.ResponseBean;
+import cn.yy.javaservicev2.dto.relation.Worklog;
+import cn.yy.javaservicev2.service.ReportEditService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -29,6 +29,8 @@ pub async fn handover_init(req: &Request<Body>, response: &mut Response<Body>)
                 serde_json::to_string(&e).unwrap()
             }
         };
+        (*response.headers_mut()).insert(hyper::header::CONTENT_TYPE, "application/json".parse().unwrap());
+        (*response.headers_mut()).insert(hyper::header::ACCEPT_CHARSET, "UTF-8".parse().unwrap());
         *response.body_mut() = Body::from(body_json);
     } else {
         *response.status_mut() = StatusCode::NOT_FOUND;
