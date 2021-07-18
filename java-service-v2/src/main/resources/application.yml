@@ -1,0 +1,3 @@
+upstream-url:
+  rust-broker: "http://0.0.0.0:443"
+  java-broker: "http://59.110.161.6:8001"
