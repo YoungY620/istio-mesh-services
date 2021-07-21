@@ -15,4 +15,4 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         tag_names: true
         cache: true
-        workdir: /rust-service/rust-broker
+        workdir: rust-service/rust-broker/
